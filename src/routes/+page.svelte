@@ -34,9 +34,9 @@
     {#if form.win == 1}
       <h3 class="text-2xl md:text-4xl text-green-700">You Win!</h3>
     {:else if  form.win == 2}
-      <h3 class="text-2xl md:text-4xl text-blue-700">That's a tie!</h3>
+      <h3 class="text-2xl md:text-4xl text-blue-700">It's a draw</h3>
     {:else}
-      <h3 class="text-2xl md:text-4xl text-red-700">You loose!</h3>
+      <h3 class="text-2xl md:text-4xl text-red-700">You lose</h3>
     {/if}
   </div>
 {/if}
